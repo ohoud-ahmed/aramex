@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Delivering Shipment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        <div class="py-5 text-center">
+            <!-- <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"> -->
+            <h2>Delivering Shipment</h2>
+            <p class="lead">Prepare to deliver shipment Fill in your travel ticket to prepare the deliver label</p>
+        </div>
+        <div class="col-md-8 order-md-1">
+            <h4 class="mb-3">Your Information</h4>
+            <form class="needs-validation" novalidate action="submit.html">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName">Last name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Valid last name is required.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <div class="invalid-feedback">
+                        Please enter a valid email address for shipping updates.
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <h4 class="mb-3">Your Destination</h4>
+                <h5>From</h5>
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label for="country">Country</label>
+                        <select class="custom-select d-block w-100" id="country" required>
+                  <option value="">Choose...</option>
+                  <option>Algeria</option>
+                  <option>Bahrain</option>
+                  <option>Egypt</option>
+                  <option>Iraq</option>
+                  <option>Jordan</option>
+                  <option>Kuwait</option>
+                  <option>Lebanon</option>
+                  <option>Libya</option>
+                  <option>Morocco</option>
+                  <option>Oman</option>
+                  <option>Palestine</option>
+                  <option>Qatar</option>
+                  <option>Saudi Arabia</option>
+                  <option>Sudan</option>
+                  <option>Syria</option>
+                  <option>Tunisia</option>
+                  <option>United Arab Emirates</option>
+                  <option>Yemen</option>
+                </select>
+                        <div class="invalid-feedback">
+                            Please select a valid country.
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="state">State</label>
+                        <select class="custom-select d-block w-100" id="state" required>
+                  <option value="">Choose...</option>
+                  <option>Asir</option>
+                  <option>Eastern</option>
+                  <option>Hail</option>
+                  <option>Al-Jawf</option>
+                  <option>Mecca</option>
+                  <option>Medina</option>
+                  <option>Najran</option>
+                  <option>Riyadh</option>
+                  <option>Tabuk</option>
+                </select>
+                        <div class="invalid-feedback">
+                            Please provide a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="zip">Zip</label>
+                        <input type="text" class="form-control" id="zip" placeholder="" required>
+                        <div class="invalid-feedback">
+                            Zip code required.
+                        </div>
+                    </div>
+                </div>
+                <h5>To</h5>
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label for="country">Country</label>
+                        <select class="custom-select d-block w-100" id="country" required>
+                  <option value="">Choose...</option>
+                  <option>Algeria</option>
+                  <option>Bahrain</option>
+                  <option>Egypt</option>
+                  <option>Iraq</option>
+                  <option>Jordan</option>
+                  <option>Kuwait</option>
+                  <option>Lebanon</option>
+                  <option>Libya</option>
+                  <option>Morocco</option>
+                  <option>Oman</option>
+                  <option>Palestine</option>
+                  <option>Qatar</option>
+                  <option>Saudi Arabia</option>
+                  <option>Sudan</option>
+                  <option>Syria</option>
+                  <option>Tunisia</option>
+                  <option>United Arab Emirates</option>
+                  <option>Yemen</option>
+                </select>
+                        <div class="invalid-feedback">
+                            Please select a valid country.
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="state">State</label>
+                        <select class="custom-select d-block w-100" id="state" required>
+                  <option value="">Choose...</option>
+                  <option>Asir</option>
+                  <option>Eastern</option>
+                  <option>Hail</option>
+                  <option>Al-Jawf</option>
+                  <option>Mecca</option>
+                  <option>Medina</option>
+                  <option>Najran</option>
+                  <option>Riyadh</option>
+                  <option>Tabuk</option>
+                </select>
+                        <div class="invalid-feedback">
+                            Please provide a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="zip">Zip</label>
+                        <input type="text" class="form-control" id="zip" placeholder="" required>
+                        <div class="invalid-feedback">
+                            Zip code required.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">Airlines</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Airlines is required.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName">Fly Number</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Fly Number is required.
+                        </div>
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <h4 class="mb-3">Bank Account</h4>
+                <div class="d-block my-3">
+                    <div class="custom-control custom-radio">
+                        <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                        <label class="custom-control-label" for="credit">Credit card</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                        <label class="custom-control-label" for="debit">Debit card</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                        <label class="custom-control-label" for="paypal">Paypal</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="cc-name">Name on card</label>
+                        <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                        <small class="text-muted">Full name as displayed on card</small>
+                        <div class="invalid-feedback">
+                            Name on card is required
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="cc-number">Credit card number</label>
+                        <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                        <div class="invalid-feedback">
+                            Credit card number is required
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <label for="cc-expiration">Expiration</label>
+                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                        <div class="invalid-feedback">
+                            Expiration date required
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="cc-expiration">CVV</label>
+                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                        <div class="invalid-feedback">
+                            Security code required
+                        </div>
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <h4 class="mb-3">Weights</h4>
+                <small class="text-muted">How Many Weights You Want To Hold</small>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <label for="cc-expiration">Weight</label>
+                        <input type="text" class="form-control" id="weight" placeholder="" required>
+                        <div class="invalid-feedback">
+                            Weight date required
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="cc-expiration">Unit</label>
+                        <select class="custom-select d-block w-100" id="unit" required>
+                  <!-- <option value="">Choose...</option> -->
+                  <option>Kg</option>
+                  <option>Lb</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Security code required
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-lg btn-block" type="submit" id="btn">submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1"> &copy; Copyright <strong><span>Aramex</span></strong>2021. All rights</p>
+
+    </footer>
+    </div>
+    <script>
+        (function() {
+            'use strict';
+
+            window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+        // const button = document.querySelector("#btn")
+        //     // const pass = document.getElementById("inputPassword")
+        // button.addEventListener('click', function() {
+        //         if (input.value >= 1 && input.value <= 15) {
+        //             alert("your Benefits 5$");
+        //             location.replace("prepareShipment.html")
+        //         } else(input.value === Infinity) {
+        //             alert("your Benefits 7$");
+        //             location.replace("deliveringShipment.html")
+        //         }
+        //     })
+
+        // const input = document.getElementById("weight")
+        // const benefits = document.getElementById("benefits")
+        // benefits.write(input * 0.05)
+    </script>
+</body>
+
+</html>
